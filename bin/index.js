@@ -1,2 +1,2 @@
 // alpha v01 init - main
-console.log("welcome boss! How may I assist you?");
+console.log("welcome boss! How may I assist you today?");
