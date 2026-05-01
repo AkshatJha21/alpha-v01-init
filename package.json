@@ -2,8 +2,9 @@
   "name": "v01",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "bin": {
-    "v01": "./bin/index.js"
+    "iris": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "figlet": "^1.11.0"
+  }
 }
